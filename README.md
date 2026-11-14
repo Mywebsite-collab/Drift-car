@@ -1,46 +1,4 @@
-# Drift-car
-https://github.com/Mywebsite-collab/Drift-car.git
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>APEX ALLEY — 3D Low-Poly Street & Circuit Racer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,500;0,700;1,700&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg-cream: #f5f1e8;
-      --card-bg: rgba(247, 243, 235, 0.94);
-      --ink: #1e232a;
-      --ink-muted: #555e6b;
-      --red: #e63329;
-      --red-dark: #b9221a;
-      --blue: #2364d2;
-      --yellow: #f4b71a;
-      --cyan: #1cb8e8;
-      --border: rgba(30, 35, 42, 0.14);
-      --shadow: 0 12px 32px rgba(20, 24, 30, 0.18);
-    }
 
-    * { box-sizing: border-box; user-select: none; -webkit-user-select: none; }
-    html, body {
-      margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden;
-      background: #1a1e24;
-      font-family: 'Inter', system-ui, sans-serif;
-      color: var(--ink);
-    }
-
-    #game-canvas {
-      position: fixed; inset: 0; width: 100%; height: 100%; display: block;
-    }
-
-    /* LOGO */
-    .logo-wrap {
-      display: inline-flex; flex-direction: column; line-height: 0.85;
-      font-family: 'Chakra Petch', sans-serif; font-style: italic; font-weight: 700;
-      letter-spacing: -0.03em; transform: skewX(-8deg);
-    }
     .logo-apex { font-size: 2.2rem; color: var(--ink); }
     .logo-alley-row { display: flex; align-items: center; gap: 8px; }
     .logo-alley { font-size: 2.35rem; color: var(--red); margin-left: 14px; }
